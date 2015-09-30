@@ -6,9 +6,7 @@ num = 0
 nextNum = 1
 
 print("The sequence is \n")
-while nextNum < 10:
+while nextNum < 20:
   print(nextNum, end =',')
-  #num = nextNum
-  #nextNum = num + nextNum
-  num, nextNum = nextNum, num + nextNum
 
+  num, nextNum = nextNum, num + nextNum
