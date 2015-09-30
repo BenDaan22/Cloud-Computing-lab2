@@ -1,7 +1,7 @@
 #palindrome codes
 
 #input a word
-text = raw_input("Input a word")
+text = input("Input a word: ")
 
 #to see the word in reverse
 word_rev = reversed(text)
